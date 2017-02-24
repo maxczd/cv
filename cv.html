@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js"></script>
+	<title>Maxime Cazade</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+			<li><a href="#accueil">ACCUEIL</a></li>
+			<li><a href="#formation">FORMATION</a></li>
+			<li><a href="#exp_pro">EXPERIENCES PROFESSIONELLES</a></li>
+			<li><a href="#competences">COMPETENCES</a></li>
+			<li><a href="#asso">EXPERIENCES ASSOCIATIVES</a></li>
+			<li><a href="#contact">CONTACT</a></li></ul>
+		</nav>
+	</header>
+
+	<section id="accueil" class="deux_lignes">
+		<h2>ACCUEIL</h2>
+		<section class="trois_colonnes">
+		<h3 class="invisible">l</h3>
+			<article class="article_center">
+				<h2>Maxime CAZADE</h2>
+				<time datetime="1994-03-13">13 Mars 1994</time>
+				<img id="ECE_logo" src="img/ECE.gif" alt="ECE">
+				<p id="intro">Elève ingénieur à l'ECE Paris en recherche active d'un stage de trois à quatre mois dans le domaine des objets connectés, des réseaux IP ou de la programmation web ou mobile.<p>
+			</article>
+			<article class="article_center">
+				<img id="photo_id" src="img/MaximeCazade.jpg" alt="
+				Maxime Cazade">
+				<h2 class="invisible">a</h2>
+			</article>
+		</section>
+		<fieldset class="fieldset_white">
+		<details>
+		<summary>Option développeur</summary>
+		<section id="form_section">
+			<h3 class="invisible">Contacter par mail</h3>
+				<form method="POST" accept-charset="utf-8">
+					<select name="choix" id="categorie">
+						<option value="exp_pro2">Expériences professionnelles</option>
+						<option value="exp_asso">Expériences associatives</option>
+					</select>
+					<input id="titre" placeholder="Titre">
+					<input id="date" placeholder="Date">
+					<textarea id="description" placeholder="Description"></textarea>
+					<input type="submit" value="Valider" class="submit" onclick="return creer()">
+				</form>
+		</section></details>
+		</fieldset>
+	</section>
+
+	<section id="formation" class="deux_lignes">
+	<h2>FORMATION</h2>
+		<article class="article_colone" id="form_article">
+		<h2 class="invisible">a</h2>
+		<dl>
+			<dt><strong>ECE PARIS (Septembre 2013 - Juin 2018)</strong></dt>
+			<dd>Licence high-tech : maths, physique, électronique, informatique</dd>
+			<dd>Master Objets Connectés, réseaux et services</dd>
+			<dd><details>
+				<summary>+ de détails</summary>
+				<ul>
+					<li>réseaux IP</li>
+					<li>programmation web</li>
+					<li>programmation mobile</li>
+					<li>conception 3D</li>
+					<li>prototypage d'objet connectés</li>
+					<li>expérience utilisateur et design interactif</li>
+					<li>réseaux radio</li>
+				</ul>
+				</details></dd>
+				<dd><a href="http://www.ece.fr/ecole-ingenieur/">
+<img src="img/ECE_noir.gif" alt="ECE"></a></dd>
+			<dt><strong>Stellenbosch University (Juillet 2015 - Décembre 2015)</strong></dt>
+				<dd>Semestre d'études en Afrique du Sud</dd>
+				<dd><a href="http://www.sun.ac.za/Home.aspx"><img src="img/stellenbosch.gif" alt="Stellenbosch"></a></dd>
+			<dt><strong>ENSM (Septembre 2012 - Mai 2013)</strong></dt>
+				<dd>Classe préparatoire intégrée pour préparer le concours d'entrée à l'ENSM</dd>
+					<dd><a href="https://www.supmaritime.fr/fr/"><img src="img/ensm.svg" alt="ENSM"></a></dd>
+		</dl>
+		</article>
+	</section>
+	
+	<section id="exp_pro" class="deux_lignes">
+	<h2>EXPERIENCES PROFESSIONELLES</h2>
+		<section class="deux_lignes" id="exp_pro2">
+		<h2 class="invisible">a</h2>
+			<article class="article_center">
+				<h3>Développeur web back-end à eCityBikes</h3>
+				<h4>Juin/Juillet 2016</h4>
+				<p>Développemet complet de la partie serveur du site NOM DU SITE permettant la location de Vélos à Assistance Electrique (VAE).</p>
+			</article>
+			<hr>
+			<article class="article_center">
+				<h3>Assistant commercial à Quesne au Leu Oeuvag</h3>
+				<h4>Juin 2014 et Juin 2015</h4>
+				<p>Création de bases de données, mise en place du logiciel Quadratus au sein de l'entreprise, démarche de clients professionnels.</p>
+			</article>
+			<hr>
+			<article class="article_center">
+				<h3>Directeur Adjoint en colonie de vacances à AVLGC</h3>
+				<h4>Août 2014 et Août 2016</h4>
+				<p id="test">Responable de l'équipe d'animation d'une colonie de vancances composée d'une cinquantaine d'enfants.</p>
+			</article>
+
+		</section>
+	</section>
+
+	<section id="competences" class="deux_lignes">
+		<h2>COMPETENCES</h2>
+		<section class="deux_lignes">
+			<h2 class="invisible">COMPETENCES</h2>
+			<article class="article_colonne">
+				<h2>Compétences professionnelles</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td><b><strong>LANGUES</strong></b></td>
+								<td><b><strong>ADOBE</strong></b></td>
+								<td><b><strong>PACK OFFICE</strong></b></td>
+								<td><b><strong>LOGICIELS</strong></b></td>
+								<td><b><strong>WEB</strong></b></td>
+								<td><b><strong>PROGRAMMATION</strong></b></td>
+							</tr><tr>
+								<td><img src="img/france.png" alt="france" class="ico_comp" title="Français"></td>
+								<td><img src="img/photoshop.png" alt="ps" class="ico_comp" id="ps" title="Photoshop"></td>
+								<td><img src="img/word.png" alt="word" class="ico_comp" title="Word"></td>
+								<td><img src="img/solidworks.gif" alt="sw" class="ico_comp" title="Solidworks"></td>
+								<td><img src="img/html5.png" alt="html" class="ico_comp" title="HTML5"></td>
+								<td><img src="img/java.png" alt="france" class="ico_comp" title="Java"></td>
+							</tr><tr>
+								<td><img src="img/ru.png" alt="ru" class="ico_comp" title="Anglais"></td>
+								<td><img src="img/premiere.png" alt="premiere" class="ico_comp" title="Premiere pro"></td>
+								<td><img src="img/excel.png" alt="excel" class="ico_comp" title="Excel"></td>
+								<td><img src="img/android_studio.png" alt="ps" class="ico_comp" title="Android Studio"></td>
+								<td><img src="img/css3.png" alt="css" class="ico_comp" title="CSS3"></td>
+								<td><img src="img/C.png" alt="france" class="ico_comp" title="C"></td>
+							</tr><tr>
+								<td><img src="img/allemagne.png" alt="all" class="ico_comp" title="Allemand"></td>
+								<td><img src="img/illustrator.png" alt="illustrator" class="ico_comp" title="Illustrator"></td>
+								<td><img src="img/powerpoint.png" alt="pp" class="ico_comp" title="PowerPoint"></td>
+								<td><img src="img/matlab.gif" alt="matlab" class="ico_comp" title="Matlab"></td>
+								<td><img src="img/php.png" alt="png" class="ico_comp" title="Php"></td>
+								<td></td>
+							</tr><tr>
+								<td></td>
+								<td></td>
+								<td><img src="img/onenote.png" alt="on" class="ico_comp" title="Onenote"></td>
+								<td><img src="img/wamp.png" alt="wamp" class="ico_comp" title="Wamp"></td>
+								<td><img src="img/mysql.png" alt="mysql" class="ico_comp" title="MySQL"></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+			</article>
+			<article class="article_colonne">
+			<h2>Compétences personnelles</h2>
+			<section class="trois_colonnes">
+			<h2 class="invisible">invisible</h2>
+			<ol>	
+				<li>Curieux</li>
+				<li>Dynamique</li>
+				<li>Pragmatique</li>
+			</ol>
+			<ul>	
+				<li><meter min="0" max="100" value="80"></meter></li>
+				<li><meter min="0" max="100" value="90"></meter></li>
+				<li><meter min="0" max="100" value="70"></meter></li>
+			</ul>
+			</section>
+			</article>
+		</section>
+	</section>
+
+	<section id="asso" class="titre">
+	<h2>EXPERIENCES ASSOCIATIVES </h2><a id="lien" href="#asso" onclick="hideHobby()">Afficher/masquer les expériences associatives</a>
+		<section class="trois_colonnes visible" id="exp_asso">
+		<h2 class="invisible">Contacter par mail</h2>
+			<article class="article_center">
+				<h3>No Larsen</h3>
+				<a class="a_center" href="http://nolarsen.ece.fr/"><img src="img/nol.png" alt="NoLarsen" id="nol"></a>
+				<h4>Avril 2016 à Avril 2017</h4>
+				<p>Vice Président de No Larsen, association son et lumières de l'ECE Paris. Reponsable du pôle radio, organisation de la cinquième édition du No Larsen Festival en Janvier 2017.</p>
+			</article>
+			<article class="article_center">
+				<h3>USMV Volley-Ball</h3>
+				<a class="a_center" href="http://www.viro-volley.com/"><img class="logo_asso" src="img/usmv.gif" alt="usmv" id="usmv"></a>
+				<h4>2008 à aujourd'hui</h4>
+				<p>Joueur de volley-ball au club de Viroflay au niveau Régional. Entraineur de l'équipe Sénior Filles au niveau départemental.</p>
+			</article>
+		</section>
+	</section>
+
+	<section id="contact" class="deux_lignes">
+	<h2>CONTACT</h2>
+			<section class="trois_colonnes">
+			<h3 class="invisible">Contacter par mail</h3>
+				<section id="form">
+				<h4 class="invisible">Contacter par mail</h4>
+					<form method="POST" accept-charset="utf-8">
+						<p>Contactez-moi par email</p>
+						<input id="prenom" placeholder="Prénom">
+						<input id="nom" placeholder="Nom">
+						<input id="mail" placeholder="email">
+						<textarea name="message" placeholder="Votre message"></textarea>
+						<input type="submit" value="Envoyer" class="submit" onclick="confirmer_envoi()">
+					</form>
+				</section>
+				<fieldset>
+					<legend>Mes coordonnées</legend>
+				<ul class="contact">
+					<li><img class="ico" src="img/maison.PNG" alt="adresse">30 rue Jean Rey 78220 VIROFLAY </li>
+					<li><img class="ico" src="img/tel.PNG" alt="téléphone">06.78.16.30.37</li>
+					<li><img class="ico" src="img/email.PNG" alt="email">maxime.cazade@orange.fr</li>
+					<li><img class="ico" src="img/linkedin.PNG" alt="linkedin">Maxime Cazade<a href="www.linkedin.com/in/maxime-cazade-73b6aa84"></a></li>
+					<li><img class="ico" src="img/twitter.PNG" alt="twitter">@MaximeCazade</li>
+					<li><img class="ico" src="img/skype.PNG" alt="skype">maximecazade</li>
+				</ul>
+				</fieldset>
+		</section>
+	</section>
+	<footer>
+		<small>Copyright (c) 2017 Copyright Holder All Rights Reserved.</small>
+	</footer>
+</body>
+</html>

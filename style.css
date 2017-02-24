@@ -1,0 +1,423 @@
+html, body
+{
+	font-family: Tahoma; 
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    font-size: 20px;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+ nav li
+{
+    float: left;
+}
+
+nav li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover
+{
+    color: #0B70B3;
+}
+
+header
+{
+	background-image: url(img/wall2.jpg);
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+#intro
+{
+    width: 500px;
+    color: white;
+}
+
+section
+{
+	background-size: cover;
+  	min-height: 100%;
+
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.trois_colonnes
+{
+    background-size: cover;
+    min-height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.titre
+{
+    background-size: cover;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+    align-items: center;
+}
+
+.invisible
+{
+    display: none;
+}
+
+#accueil
+{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(img/wall2.jpg);
+    color: white;
+}
+
+#formation
+{
+    background-image: url(img/wall.jpg);
+}
+
+#exp_pro
+{
+    background-image: url(img/wall2.jpg);
+    color: white;
+}
+
+#competences
+{
+    background-image: url(img/wall.jpg);
+}
+
+#asso
+{
+    background-image: url(img/wall2.jpg);
+    color: white;
+}
+
+#contact
+{
+    background-image: url(img/wall.jpg);
+}
+
+#article_texte
+{
+	text-align: center;
+	margin-left: 10%;
+}
+
+#ECE_logo
+{
+	width: 50%;
+}
+
+.article_titre
+{
+    align-self: flex-start;
+    text-align: center;
+}
+
+.titre_section
+{
+    align-self: flex-start;
+    text-align: center;
+}
+
+
+#photo_id
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    width: 300px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #E9E9E9;
+    border-radius: 90%;
+}
+
+img
+{
+	width: 10%;
+}
+
+.deux_lignes 
+{
+    background-size: cover;
+    min-height: 100%;
+
+	margin : 0;    
+	text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;  
+
+    width: 100%;
+}  
+
+.deux_lignes .article_titre
+{
+    align-self: center;
+}
+
+.article_colonne
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.article_center
+{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+    width: 34%;
+}
+
+ul
+{
+    list-style: none;
+}
+
+#nol
+{
+    width: 120px;
+    height: 120px;
+}
+
+#usmv
+{
+    width: 140px;
+    height: 140px;
+}
+
+dd
+{
+    margin : 0;
+}
+
+summary
+{
+    cursor: pointer;
+}
+
+h1
+{
+    font-size: 40px;
+    color: #0B70B3;
+}
+
+h2
+{
+    text-align: center;
+    color: #0B70B3;
+}
+
+h3
+{
+    text-align: center;
+}
+
+.a_center
+{
+    justify-content: center;
+}
+
+hr
+{
+    width: 20px;
+    height: 2%;
+    border-color: #0B70B3;
+}
+
+.ico_comp
+{
+    width: 50px;
+    height: 50px;
+}
+
+table
+{
+    padding-bottom: 100px;
+}
+
+td
+{
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+ol
+{
+    text-align: left;
+}
+
+li
+{
+    align-self: flex-end;
+}
+
+meter
+{
+    vertical-align: middle;
+    width: 200px;
+    margin-left: 15px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    width: 500px;
+    height: 300px
+}
+
+#form
+{
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#prenom, #nom, #mail, #date, #titre
+{
+    width: 80%;
+    height: 20px;
+    align-self: center;
+    border-radius: 4px;
+    background-color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+#categorie
+{
+    width: 86%;
+    height: 34px;
+    align-self: center;
+    border-radius: 4px;
+    background-color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+textarea
+{
+    width: 80%;
+    height: 50px;   
+    align-self: center;
+    border-radius: 4px;
+    background-color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.submit
+{
+    width: 70px;
+    height: 35px;
+    align-self: center;
+    border-radius: 4px;
+    background-color: #2A2A2A;
+    color: white;
+    font-size: 14px;
+}
+
+ul.contact 
+{
+    list-style-type: none;
+    text-align: left;
+    margin-left: 10px;
+}
+
+ul.contact img
+{
+    vertical-align: middle;
+}
+
+ul.contact li
+{
+    display: block;
+    vertical-align: middle;
+}
+
+fieldset
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.fieldset_white
+{
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+.ico
+{
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+#lien
+{
+    color: white;
+}
+
+footer
+{
+	height: 50px;
+
+	color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(img/wall2.jpg);
+}
